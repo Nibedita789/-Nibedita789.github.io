@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +13,6 @@
     <title>Nibedita Mahanta | Developer Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -29,11 +28,11 @@
                 <a href="#skills">Skills</a>
                 <a href="#education">Education</a>
                 <a href="#projects">Projects</a>
+                <a href="#vida">Vida AI</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
     </header>
-
 
     <main>
 
@@ -66,7 +65,9 @@
                     </a>
                 </div>
 
-                <p class="location">Bhubaneswar, Odisha, India</p>
+                <p class="location">
+                    Bhubaneswar, Odisha, India
+                </p>
 
             </div>
 
@@ -200,9 +201,13 @@
 
                 <div class="project-info">
 
-                    <span class="project-status">In Development</span>
+                    <span class="project-status">
+                        In Development
+                    </span>
 
-                    <h3>AI-Powered Designer Fashion E-Commerce Platform</h3>
+                    <h3>
+                        AI-Powered Designer Fashion E-Commerce Platform
+                    </h3>
 
                     <p>
                         A full-stack application designed to connect
@@ -238,12 +243,12 @@
         </section>
 
 
-        <!-- AI BUDDY SECTION -->
+        <!-- VIDA AI BUDDY SECTION -->
         <section id="vida" class="section vida-section">
 
             <div class="section-heading">
-                <p class="eyebrow">A LITTLE SOMETHING SPECIAL</p>
-                <h2>Meet Vida</h2>
+                <p class="eyebrow">YOUR PORTFOLIO COMPANION</p>
+                <h2>Meet Vida — My AI Buddy</h2>
             </div>
 
             <div class="vida-card">
@@ -257,12 +262,12 @@
                     <h3>Hi! I'm Vida</h3>
 
                     <p>
-                        Nibedita's AI buddy. Welcome to her portfolio!
+                        I'm Nibedita's AI buddy. Welcome to her portfolio!
                     </p>
 
                     <p>
-                        I'm here to introduce her work, projects and
-                        technical journey.
+                        Ask me about her education, technical skills,
+                        projects and professional journey.
                     </p>
 
                     <button
@@ -271,6 +276,58 @@
                         class="btn primary-btn">
                         Say Hello
                     </button>
+
+                </div>
+
+                <!-- VIDA CHAT WINDOW -->
+                <div class="vida-chat">
+
+                    <div class="vida-chat-header">
+                        <div>
+                            <h3>Chat with Vida</h3>
+                            <p>Portfolio AI Assistant</p>
+                        </div>
+
+                        <span class="vida-status">
+                            Online
+                        </span>
+                    </div>
+
+                    <div
+                        class="vida-messages"
+                        id="vida-messages"
+                        aria-live="polite">
+
+                        <div class="vida-message bot-message">
+                            Hi! I'm Vida. How can I help you learn
+                            about Nibedita?
+                        </div>
+
+                    </div>
+
+                    <form
+                        class="vida-input-area"
+                        id="vida-chat-form">
+
+                        <input
+                            type="text"
+                            id="vida-input"
+                            placeholder="Ask Vida something..."
+                            autocomplete="off"
+                            aria-label="Your message"
+                        >
+
+                        <button
+                            type="submit"
+                            id="vida-send">
+                            Send
+                        </button>
+
+                    </form>
+
+                    <p class="vida-note">
+                        Powered by AI technology
+                    </p>
 
                 </div>
 
@@ -322,6 +379,10 @@
         </p>
 
     </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js" defer></script>
 
 </body>
 </html>
